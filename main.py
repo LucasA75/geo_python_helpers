@@ -19,22 +19,8 @@ def login(user, password):
 
   return token
 
-"""
-CIAL Producción
-  "User": bd02cb
-  "Password": b69fcaf5
-
-CIAL Test
-  "User": f0e1c0
-  "Password": 1c1fc4e5
-  
-CEVA Test
-"User":"10d36a"
-"Pass":"3ddd2e85"
-  
-"""
-token_prod = login("bd02cb", "b69fcaf5")
-token_test = login("10d36a", "3ddd2e85")
+token_prod = login("", "")
+token_test = login("", "")
 
 # /Shift/List
 def shift_list(token):
